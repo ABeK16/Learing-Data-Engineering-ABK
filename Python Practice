@@ -1,0 +1,9 @@
+Latin leftover currency converter 
+CO = int(input("Cash CO ")) 
+PE = int(input("Cash PE ")) 
+RE = int(input("Cash RE ")) 
+CO_USD = CO*0.00023 
+PE_USD = CO*0.027
+RE_USD = CO*0.162
+TOTAL_USD = CO_USD+PE_USD+RE_USD
+print(TOTAL_USD , "USD") 
